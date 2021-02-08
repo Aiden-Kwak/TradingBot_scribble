@@ -39,4 +39,10 @@ CheckModel case3 die가 3:20 일어나니까 매도후 전략a탐색을 3:22에 
 RangeWilliam() 실행시간 854.648s 걸림. 이걸 매번 for돌릴때마다 실행중. RangeWilliam()을 미리 돌려 리스트에 저장하고 그걸 호출하자<br>
 그런다해도 854초는 너무 길다. 
 <hr>
-multiprocessing으로 속도를 줄일수 있다. 체크해보자.
+multiprocessing으로 속도를 줄일수 있다. 체크해보자.<br>
+pool = Pool(processes='활용 가능한 CPU 코어수')<br>
+result = pool.map(정의된 함수, 병렬처리할 input 값)<br>
+pool.close()<br>
+pool.join()<br>
+
+
