@@ -45,6 +45,6 @@ result = pool.map(정의된 함수, 병렬처리할 input 값)<br>
 pool.close()<br>
 pool.join()<br>
 <hr>
-parmap을 써볼까. https://dailyheumsi.tistory.com/105 <br>
+멀티프로세스 구현할때 if __name__=='__main__': 조건문이 꼭 필요하다. 그렇지 않으면 오류 발생함
 
 
