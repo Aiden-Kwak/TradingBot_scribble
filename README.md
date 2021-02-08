@@ -44,5 +44,7 @@ pool = Pool(processes='활용 가능한 CPU 코어수')<br>
 result = pool.map(정의된 함수, 병렬처리할 input 값)<br>
 pool.close()<br>
 pool.join()<br>
+<hr>
+parmap을 써볼까. https://dailyheumsi.tistory.com/105 <br>
 
 
