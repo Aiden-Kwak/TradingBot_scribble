@@ -46,5 +46,8 @@ pool.close()<br>
 pool.join()<br>
 <hr>
 멀티프로세스 구현할때 if __name__=='__main__': 조건문이 꼭 필요하다. 그렇지 않으면 오류 발생함
+<hr>
+멀티프로세싱한 데이터를 리스트에 쌓으려면 manager 객체를 이용하면 된다.<br>
+https://m.blog.naver.com/stop2y/221730273927
 
 
