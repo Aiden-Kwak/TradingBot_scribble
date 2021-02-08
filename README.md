@@ -50,7 +50,7 @@ pool.join()<br>
 멀티프로세싱한 데이터를 리스트에 쌓으려면 manager 객체를 이용하면 된다.<br>
 https://m.blog.naver.com/stop2y/221730273927
 <hr>
-근본적으로 자를수 있는건 kosdaq_list임. Numpy로 n등분해서 프로세스 8개에 분할
+근본적으로 자를수 있는건 kosdaq_list임. numpy.array_split()으로 n등분해서 프로세스 8개에 분할
 
 
 
