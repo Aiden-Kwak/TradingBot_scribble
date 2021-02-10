@@ -51,6 +51,10 @@ pool.join()<br>
 https://m.blog.naver.com/stop2y/221730273927
 <hr>
 근본적으로 자를수 있는건 kosdaq_list임. numpy.array_split()으로 n등분해서 프로세스 8개에 분할
+<hr>
+pool이용대신 process이용.<br>
+속도가 빨라지니 시세데이터 조회제한걸림. time.sleep()으로 적정선 찾기. 경고창뜨면 프로세스 하나가 중단되고 해당 경고창의 확인을 누르면<br>
+프로세스 재실행된다. 알아서 확인을 누를방법을 생각<br>
 
 
 
