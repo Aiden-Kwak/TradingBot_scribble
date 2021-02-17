@@ -63,4 +63,6 @@ pool이용대신 process이용.<br>
 cmd 에서 taskkill /im 프로세스명 으로 종료신호보낼 수 있음. 파이썬에서 cmd명령을 실행할 수 있는가<br>
 import os해서 os.system()으로 전달하고 이걸 멀티프로세스를 만들어 동시 실행시켜주면 될거같음
 <hr>
-subprocess로 대체
+subprocess로 대체. 콘솔 안띄우기 위해 프로세스 API를 보고 CREATE_NO_WINDOW=0x08000000 이용.<br>
+subprocess.call('taskkill /im KakaoTalk.exe',creationflags=CREATE_NO_WINDOW) 이런식으로 사용하면 해결됨
+
