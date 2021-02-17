@@ -59,4 +59,5 @@ pool이용대신 process이용.<br>
 에러창의 process ID를 확인하자. 작업관리자로 PID확인 가능. win32 API로 PID 제어 가능할것같음
 <hr>
 윌리엄 개선 필요. 코어를 거래량으로 변경후 테스트
-
+<hr>
+cmd 에서 taskkill /im 프로세스명 으로 종료신호보낼 수 있음. 파이썬에서 cmd명령을 실행할 수 있는가
