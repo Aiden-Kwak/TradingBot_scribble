@@ -65,4 +65,6 @@ import os해서 os.system()으로 전달하고 이걸 멀티프로세스를 만�
 <hr>
 subprocess로 대체. 콘솔 안띄우기 위해 프로세스 API를 보고 CREATE_NO_WINDOW=0x08000000 이용.<br>
 subprocess.call('taskkill /im KakaoTalk.exe',creationflags=CREATE_NO_WINDOW) 이런식으로 사용하면 해결됨
+<hr>
+개별작동은 확인했는데 프로세스를 따로 만들어작동시키면 계속 중간에 pwintypes.com_error가 발생함
 
